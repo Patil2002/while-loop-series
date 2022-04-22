@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace while_loop_series
+{
+    public class Program
+    {
+        
+         public static void Main(string[] args)
+        {
+            int i= 1, n;
+            Console.WriteLine("Enter the Number:-");
+            n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Series of 1 to 10 in foor loop:-");
+            while(i<=n)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            Console.ReadLine();
+        }
+    }
+}
